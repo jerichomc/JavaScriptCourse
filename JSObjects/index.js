@@ -40,5 +40,11 @@ function Car(make, model, year, color){
     this.make = make,
     this.model = model,
     this.year = year,
-    this.color = color,
+    this.color = color
+    this.drive = function(){console.log("Driving")}
 }
+
+const car1 = new Car("Kia", "Rio", 2019, "blue");
+
+console.log(car1.make);
+console.log(car1.year);
